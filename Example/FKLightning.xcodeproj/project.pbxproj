@@ -13,6 +13,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		B7CF80899AB826B31922779D /* Pods_FKLightning_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB36F055407C1EEC5C27E6F5 /* Pods_FKLightning_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F232B32C1B60E28B00FABF81 /* FKLightning.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B32B1B60E28B00FABF81 /* FKLightning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		B6EE8792B55E8D0515814EC1 /* FKLightning.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FKLightning.podspec; path = ../FKLightning.podspec; sourceTree = "<group>"; };
 		BB36F055407C1EEC5C27E6F5 /* Pods_FKLightning_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FKLightning_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF22A1D5F4077280CE1F6A8 /* Pods-FKLightning_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKLightning_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FKLightning_Tests/Pods-FKLightning_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F232B32A1B60E28B00FABF81 /* FKLightning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKLightning.h; path = Classes/FKLightning.h; sourceTree = "<group>"; };
+		F232B32B1B60E28B00FABF81 /* FKLightning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKLightning.m; path = Classes/FKLightning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				F232B32A1B60E28B00FABF81 /* FKLightning.h */,
+				F232B32B1B60E28B00FABF81 /* FKLightning.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -238,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				F232B32C1B60E28B00FABF81 /* FKLightning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
