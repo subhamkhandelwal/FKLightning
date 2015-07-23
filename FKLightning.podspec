@@ -10,18 +10,13 @@
 Pod::Spec.new do |s|
   s.name             = "FKLightning"
   s.version          = "0.1.0"
-  s.summary          = "A short description of FKLightning."
-  s.description      = <<-DESC
-                       An optional longer description of FKLightning
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/FKLightning"
+  s.summary          = "This library is to find weighted internet speed."
+  s.description      = "One can use this pod to calculate and use weighted internet speed."
+  s.homepage         = "https://github.com/subhamkhandelwal/FKLightning"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Subham Khandelwal" => "subhamkhandelwal@yahoo.co.in" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/FKLightning.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/subhamkhandelwal/FKLightning.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

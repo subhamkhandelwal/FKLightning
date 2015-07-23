@@ -1,0 +1,14 @@
+PODS:
+  - FKLightning (0.1.0)
+
+DEPENDENCIES:
+  - FKLightning (from `../`)
+
+EXTERNAL SOURCES:
+  FKLightning:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FKLightning: 5a7a7b8e143fe51a79e69caa0662cd5760147370
+
+COCOAPODS: 0.37.2

@@ -1,0 +1,6 @@
+framework module FKLightning {
+  umbrella header "Pods-FKLightning_Tests-FKLightning-umbrella.h"
+
+  export *
+  module * { export * }
+}
