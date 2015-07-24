@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FKLightning"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "This library is to find weighted internet speed."
   s.description      = "One can use this pod to calculate and use weighted internet speed."
   s.homepage         = "https://github.com/subhamkhandelwal/FKLightning"
