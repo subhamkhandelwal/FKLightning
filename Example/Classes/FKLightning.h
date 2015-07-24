@@ -10,7 +10,22 @@
 
 @interface FKLightning : NSObject
 
-@property (strong, nonatomic) NSString *testString;
-- (void) printString;
+@property (assign, nonatomic) double weightedInternetSpeed;
+
+// A good internet speed can be anything based on your usecase. Ideally, it should be kept at 50.
+@property (assign, nonatomic) double goodInternetSpeed;
+
+// Minimum size to calculate speed should be a non-zero value.
+// Only if speed is above this value FKLightning will calculate weighted interet speed.
+// Ideal value assigned should be 30000. Again, it depends on your usecase.
+// If this value is 0 then this library won't be used.
+@property (assign, nonatomic) double minSizeToCalculateSpeed;
+
+//@property (assign, nonatomic) NSInteger resetDataAfterXCalls;
+
++ (FKLightning *) sharedInstance;
+- (void) calculateWtInternetSpeedWithCurrentSize: (double)lightningBytes andCurrentTimeTaken: (double)lightningTime;
+- (void) resetData;
+- (NSString *) getNetoworkTypeWithDetectedNetwork: (NSString *)networkType;
 
 @end
