@@ -7,9 +7,12 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+After pod install, there are hooks in FKLightning.h file which one can use to calculate weighted internet speed by providing bytes transferred and time taken. 
+Also, at any point of time, one can find out current weighted internet speed.
 
 ## Requirements
+
+There is no dependency. :)
 
 ## Installation
 
@@ -17,7 +20,7 @@ FKLightning is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "FKLightning"
+pod "FKLightning", :git=> 'https://github.com/subhamkhandelwal/FKLightning.git'
 ```
 
 ## Author
